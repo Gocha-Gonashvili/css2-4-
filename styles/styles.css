@@ -1,0 +1,410 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+background: #FFF;
+}
+
+#topContent {
+width: 1400px;
+height: 674px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 115px;
+margin-top: 156px;
+}
+
+#friendsimg {
+width: 1400px;
+height: 674px;
+border-radius: 33.185px;
+display: block;
+}
+
+
+#lorem {
+width: 1258px;
+color: #FFF;
+font-family: PoetsenOne;
+font-size: 44.452px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: -630px auto 0;
+}
+
+#middleContent {
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 72px;
+width: 1137px;
+padding: 40px 32px;
+border-radius: 24px;
+background: #EBF8FE;
+}
+
+#heading {
+width: 971px;
+margin: 0 auto;
+}
+
+h1 {
+color: #181D27;
+font-family: "Inria Sans";
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: -1.28px;
+margin-bottom: 24px;
+
+}
+
+#textDiv {
+width: 1073px;
+margin: 0 auto;
+}
+
+#promise {
+color: #535862;
+font-family: "Instrument Sans";
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 44px;
+margin-bottom: 24px;
+}
+
+
+#formDiv {
+width: 488px;
+margin: 0 auto;
+}
+
+#inputField {
+width: 345px;
+display: inline-block;
+vertical-align: middle;
+}
+
+#email {
+margin-bottom: 8px;
+padding: 12px 14px;
+border-radius: 8px;
+border: 1px solid #D5D7DA;
+background: #FFF;
+width: 345px;
+margin-right: 24px;
+}
+
+#care {
+color: #535862;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height:  20px;
+}
+
+#spanOne {
+color: #535862;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: none;
+text-decoration-thickness: auto;
+text-underline-offset: auto;
+text-underline-position: from-font;
+}
+
+#subscribeButton {
+padding: 12px 18px;
+border-radius: 8px;
+border: 2px solid #FFF;
+background: #007CB8;
+color: #FFF;
+font-family:  Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px;
+vertical-align: top;
+margin-left: 24px;
+}
+
+
+#bottomContent {
+width: 546px;
+padding: 40px 32px;
+border-radius: 24px;
+background: #EBF8FE;
+margin: 0 auto;
+}
+
+#fheading {
+margin-bottom: 24px;
+}
+
+#lForm {
+color: #181D27;
+font-family: "Inria Sans";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: -0.8px;
+}
+
+#EnterName {
+margin-bottom: 24px;
+}
+
+#lname {
+color: #1B003D;
+font-family: "Noto Sans Georgian";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+display: block;
+margin-bottom: 8px;
+}
+
+#name {
+padding: 8px 16px;
+border-radius: 8px;
+border: 1px solid #380054;
+width: 482px;
+height: 48px;
+}
+
+#EnterEmail {
+margin-bottom: 24px;
+}
+
+#lmail {
+color: #1B003D;
+font-family: "Noto Sans Georgian";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+display: block;
+margin-bottom: 8px;
+}
+
+#Bmail {
+padding: 8px 16px;
+border-radius: 8px;
+border: 1px solid #380054;
+width: 482px;
+height: 48px;
+}
+
+#radioDiv {
+margin-bottom: 24px;
+display: block;
+}
+
+#radios {
+color: #1B003D;
+font-family: "Noto Sans Georgian";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+display: block;
+
+}
+
+#radioOne{
+margin-bottom: 10px;
+margin-top: 7px;
+}
+
+#yesOne {
+width: 16px;
+height: 16px;
+margin-right:11px;
+vertical-align: middle;
+color: #6D5F8B;
+font-family: "Noto Sans Georgian";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+vertical-align: middle;
+}
+
+#question1 {
+color: #6D5F8B;
+font-family: "Noto Sans Georgian";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+vertical-align: middle;
+}
+
+#radioTwo {
+margin-bottom: 10px;
+margin-top: 7px;
+}
+
+#yesTwo {
+width: 16px;
+height: 16px;
+margin-right:11px;
+vertical-align: middle;
+color: #6D5F8B;
+font-family: "Noto Sans Georgian";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+vertical-align: middle;
+}
+
+#question2 {
+color: #6D5F8B;
+font-family: "Noto Sans Georgian";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+vertical-align: middle;
+}
+
+#radioThree {
+margin-bottom: 10px;
+margin-top: 7px;
+}
+
+#yesThree {
+width: 16px;
+height: 16px;
+margin-right:11px;
+vertical-align: middle;
+color: #6D5F8B;
+font-family: "Noto Sans Georgian";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+vertical-align: middle;
+}
+
+#question3 {
+color: #6D5F8B;
+font-family: "Noto Sans Georgian";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+vertical-align: middle;
+}
+
+#checkboxes {
+display: block;
+}
+
+#checkOne {
+margin-bottom: 10px;
+margin-top: 7px;
+}
+
+#Cj {
+width: 16px;
+height: 16px;
+margin-right:11px;
+vertical-align: middle;
+}
+
+#lCj {
+color: #6D5F8B;
+font-family: "Noto Sans Georgian";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+vertical-align: middle;
+}
+
+#checkTwo {
+margin-bottom: 10px;
+margin-top: 7px;
+}
+
+#Cpp {
+width: 16px;
+height: 16px;
+margin-right:11px;
+vertical-align: middle;
+}
+
+#lCpp {
+color: #6D5F8B;
+font-family: "Noto Sans Georgian";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+vertical-align: middle;
+}
+
+#checkThree {
+margin-bottom: 10px;
+margin-top: 7px;
+}
+
+#j {
+width: 16px;
+height: 16px;
+margin-right:11px;
+vertical-align: middle;
+}
+
+#lj {
+color: #6D5F8B;
+font-family: "Noto Sans Georgian";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+vertical-align: middle;
+}
+
+#checkFour {
+margin-bottom: 10px;
+margin-top: 7px;
+}
+
+#py {
+width: 16px;
+height: 16px;
+margin-right:11px;
+vertical-align: middle;
+}
+
+#lpy {
+color: #6D5F8B;
+font-family: "Noto Sans Georgian";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+vertical-align: middle;
+}
+
+
+
+
+
+
